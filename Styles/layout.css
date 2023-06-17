@@ -1,6 +1,13 @@
+.body{
 
-.site{
-    background-image: url(../assets/bg.jpg);
+    background-color: black;
+}
+.site {
+    background:
+        Linear-gradient(110deg, rgba(9,9,9,1) 0%, rgba(7,7,7,0) 50%, rgba(5,5,5,1) 100%),
+        url(../assets/bg.jpg);
+    background-size: 121%;
+
 }
 
 
@@ -43,7 +50,14 @@
 .section-container {
     max-width: 700px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
     /* background-color: #eee; */
+}
+
+.section-container.media-left {
+    flex-direction: row-reverse;
 }
 
 .section-banner {
@@ -62,4 +76,12 @@
 .section-banner .sub-title {
     font-size: 1.2em;
  }
+
+
+ .section-zigzag .media{
+    max-width: 40%;
+ }
+
+
+
 
