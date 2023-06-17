@@ -1,0 +1,55 @@
+.site-header .section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+.site-header a{
+    color:  #E50914;
+    text-decoration: none;
+}
+
+.site-header a.login{
+    background-color:  #E50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+}
+
+.site-header.section,
+.section-banner.section {
+   border: none;
+}
+
+.section {
+    background: black;
+    color: white;
+    border-top: 5px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.section-container {
+    max-width: 700px;
+    margin: 0 auto;
+    /* background-color: #eee; */
+}
+
+.section-banner {
+    text-align: center;
+
+ }
+ 
+ .section-banner h2 {
+    max-width: 16em;
+    margin-inline: auto;
+}
+
+.section-banner .sub-title {
+    font-size: 1.2em;
+
+ }
