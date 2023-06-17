@@ -1,3 +1,9 @@
+
+.site{
+    background-image: url(../assets/bg.jpg);
+}
+
+
 .site-header .section-container{
     display: flex;
     align-items: center;
@@ -24,6 +30,7 @@
 .site-header.section,
 .section-banner.section {
    border: none;
+   background: none;
 }
 
 .section {
@@ -41,9 +48,12 @@
 
 .section-banner {
     text-align: center;
-
  }
  
+ .section-banner .section-container{
+    padding: 4em 0;
+ }
+
  .section-banner h2 {
     max-width: 16em;
     margin-inline: auto;
@@ -51,5 +61,5 @@
 
 .section-banner .sub-title {
     font-size: 1.2em;
-
  }
+
