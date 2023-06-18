@@ -57,15 +57,17 @@
     /* background-color: #eee; */
 }
 
+.section-banner .section-container {
+    flex-direction: column;
+}
+
 .section-container .copy {
     max-width: 45%;
-
 }
 
 
 .section-container.media-left {
     flex-direction: row-reverse;
-    
 }
 
 .section-banner {
@@ -88,6 +90,48 @@
 
  .section-zigzag .media{
     max-width: 45%;
+ }
+
+ .section-faq .section-container > h2,
+ .section-faq .section-container > p {
+    text-align: center;
+ }
+
+ .section-faq .section-container{
+    padding: 2em 0;
+    flex-direction: column;
+
+ }
+
+ .site-footer .section-container{
+    padding: 2em 0;
+ }
+
+ .site-footer h6{ 
+    padding-bottom: 1em;
+    font-weight: normal;
+    color: #666;
+ }
+
+ .site-footer .links {
+    display: flex;
+ }
+
+ .site-footer .links ul {
+    flex: 1 1 auto;
+ }
+
+ .site-footer .links li {
+    display: block;
+ }
+
+ .site-footer a {
+    color: #999;
+    text-decoration: none;
+ }
+
+ .site-footer a:hover {
+    color: white;
  }
 
 
